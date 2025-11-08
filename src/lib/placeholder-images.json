@@ -2,7 +2,7 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A compassionate doctor listening to a patient.",
+      "description": "A compassionate doctor listening to a patient in a bright, modern hospital setting.",
       "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MjYwNjgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "doctor patient"
     },
@@ -27,20 +27,38 @@
     {
       "id": "patient-story-1",
       "description": "Portrait of a smiling patient",
-      "imageUrl": "https://images.unsplash.com/photo-1579047917338-a6a69144fe63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjI0ODUxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "happy person"
+      "imageUrl": "https://images.unsplash.com/photo-1554774853-719586f82d77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzYyODU0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
     },
     {
       "id": "patient-story-2",
       "description": "Portrait of a recovered patient",
-      "imageUrl": "https://images.unsplash.com/photo-1624486217002-846e654ac969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8MTc2MjUxNDYwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smiling person"
+      "imageUrl": "https://images.unsplash.com/photo-1610216705422-caa3fc2bab34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3b21hbnxlbnwwfHx8fDE3NjI4NTQ3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian woman"
     },
     {
       "id": "patient-story-3",
       "description": "Portrait of a content patient",
-      "imageUrl": "https://images.unsplash.com/photo-1747995371110-7dfa822073a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb250ZW50JTIwcGVyc29ufGVufDB8fHx8MTc2MjU2MjM2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "content person"
+      "imageUrl": "https://images.unsplash.com/photo-1520409364224-63400afe26e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzYyODU0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
+    },
+    {
+      "id": "hospital-1",
+      "description": "Exterior of Apollo Hospital",
+      "imageUrl": "https://images.unsplash.com/photo-1690983302930-3f587810471c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMGV4dGVyaW9yfGVufDB8fHx8MTc2MjU1NDExNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital exterior"
+    },
+    {
+      "id": "hospital-2",
+      "description": "Exterior of Fortis Hospital",
+      "imageUrl": "https://images.unsplash.com/photo-1662414185445-b9a05e26dba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjI1NzIyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern hospital"
+    },
+    {
+      "id": "hospital-3",
+      "description": "Exterior of Manipal Hospital",
+      "imageUrl": "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MjU0NTU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital building"
     }
   ]
 }

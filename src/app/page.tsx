@@ -5,6 +5,7 @@ import { SmartRecommender } from "@/components/sections/smart-recommender";
 import { Services } from "@/components/sections/services";
 import { PatientStories } from "@/components/sections/patient-stories";
 import { Support } from "@/components/sections/support";
+import { HowItWorks } from "@/components/sections/how-it-works";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Services />
+        <HowItWorks />
         <SmartRecommender />
         <PatientStories />
         <Support />
