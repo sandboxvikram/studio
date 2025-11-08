@@ -6,6 +6,7 @@ import { Services } from "@/components/sections/services";
 import { PatientStories } from "@/components/sections/patient-stories";
 import { Support } from "@/components/sections/support";
 import { HowItWorks } from "@/components/sections/how-it-works";
+import { BlogSection } from "@/components/sections/blog";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <HowItWorks />
         <SmartRecommender />
         <PatientStories />
+        <BlogSection />
         <Support />
       </main>
       <Footer />

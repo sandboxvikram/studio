@@ -16,5 +16,5 @@ export const contactFormSchema = z.object({
 export const recommenderSchema = z.object({
   condition: z.string().min(3, "Please describe your medical condition."),
   location: z.string().min(2, "Please enter your preferred city."),
-  budget: z.string().min(1, "Please select a budget range."),
+  budget: z.string({ required_error: "Please select a budget range."}).min(1, "Please select a budget range."),
 });

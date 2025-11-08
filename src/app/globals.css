@@ -88,4 +88,16 @@
   body {
     @apply bg-background text-foreground;
   }
+  .prose {
+    @apply text-foreground;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-foreground;
+  }
+  .prose a {
+    @apply text-primary hover:text-primary/80;
+  }
+  .prose blockquote {
+    @apply border-primary;
+  }
 }

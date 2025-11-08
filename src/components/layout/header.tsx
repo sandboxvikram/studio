@@ -6,17 +6,20 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, HeartPulse } from "lucide-react";
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import { usePathname } from 'next/navigation';
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#recommender", label: "Find a Hospital" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#support", label: "Support" },
+  { href: "/#services", label: "Services" },
+  { href: "/#recommender", label: "Find a Hospital" },
+  { href: "/blog", label: "Blog" },
+  { href: "/#testimonials", label: "Testimonials" },
+  { href: "/#support", label: "Support" },
 ];
 
 export function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +34,7 @@ export function Header() {
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      isScrolled ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
+      isScrolled || pathname !== '/' ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
     )}>
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
@@ -41,23 +44,23 @@ export function Header() {
           </Link>
           <nav className="hidden gap-6 text-sm md:flex">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="font-medium text-foreground/70 transition-colors hover:text-foreground"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>
 
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild className="hidden sm:inline-flex">
-            <a href="#recommender">Get Started</a>
+            <Link href="/#recommender">Get Started</Link>
           </Button>
           <Button variant="outline" className="hidden sm:inline-flex">
-             <a href="#support">Contact Us</a>
+             <Link href="/#support">Contact Us</Link>
           </Button>
           <Sheet open={isMenuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
@@ -73,17 +76,17 @@ export function Header() {
               </Link>
               <div className="flex flex-col space-y-4">
                 {navLinks.map((link) => (
-                  <a
+                  <Link
                     key={link.href}
                     href={link.href}
                     className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
                     onClick={closeMenu}
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
                  <Button asChild className="mt-4">
-                    <a href="#recommender">Get Started</a>
+                    <Link href="/#recommender">Get Started</Link>
                 </Button>
               </div>
             </SheetContent>

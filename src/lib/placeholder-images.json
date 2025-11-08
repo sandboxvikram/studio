@@ -59,6 +59,24 @@
       "description": "Exterior of Manipal Hospital",
       "imageUrl": "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MjU0NTU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hospital building"
+    },
+    {
+      "id": "blog-post-1",
+      "description": "A person looking at a flight information board at an airport.",
+      "imageUrl": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXJwb3J0JTIwdHJhdmVsfGVufDB8fHx8MTc2MzEzMTc0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "airport travel"
+    },
+    {
+      "id": "blog-post-2",
+      "description": "A futuristic image of AI and technology in a medical context.",
+      "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMGhlYWx0aGNhcmV8ZW58MHx8fHwxNzYzMTMxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai healthcare"
+    },
+    {
+      "id": "blog-post-3",
+      "description": "An image of a healthy heart or someone engaging in heart-healthy activities.",
+      "imageUrl": "https://images.unsplash.com/photo-1528699633785-3b9e48b81393?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFydCUyMGhlYWx0aHxlbnwwfHx8fDE3NjMxMzE4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heart health"
     }
   ]
 }
