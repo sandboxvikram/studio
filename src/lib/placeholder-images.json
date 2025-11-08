@@ -2,33 +2,45 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Abstract background for hero section",
-      "imageUrl": "https://images.unsplash.com/photo-1610466896927-699424f3c86d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGNvZGV8ZW58MHx8fHwxNzYyNTA2NjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract code"
+      "description": "A compassionate doctor listening to a patient.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MjYwNjgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor patient"
     },
     {
-      "id": "feature-1",
-      "description": "Image for structured content feature",
-      "imageUrl": "https://images.unsplash.com/photo-1649442746245-f51f4b76963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWJzaXRlJTIwbGF5b3V0fGVufDB8fHx8MTc2MjU3MTc4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "website layout"
+      "id": "treatment-plan",
+      "description": "Image for personalized treatment plans feature",
+      "imageUrl": "https://images.unsplash.com/photo-1758691461990-03b49d969495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWRpY2FsJTIwY2hhcnR8ZW58MHx8fHwxNzYyNDg1OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical chart"
     },
     {
-      "id": "feature-2",
-      "description": "Image for interactive elements feature",
-      "imageUrl": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx1c2VyJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MjU1ODI3MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "user interface"
+      "id": "travel-booking",
+      "description": "Image for travel and stay booking feature",
+      "imageUrl": "https://images.unsplash.com/photo-1505164294036-5fad98506d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhaXJwbGFuZSUyMHRyYXZlbHxlbnwwfHx8fDE3NjI1NzE5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "airplane travel"
     },
     {
-      "id": "feature-3",
-      "description": "Image for responsive design feature",
-      "imageUrl": "https://images.unsplash.com/photo-1708179762920-cbf7986ce29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVsdGlwbGUlMjBkZXZpY2VzfGVufDB8fHx8MTc2MjUxODIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "multiple devices"
+      "id": "multilingual-support",
+      "description": "Image for 24/7 multilingual support feature",
+      "imageUrl": "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b21lciUyMHN1cHBvcnR8ZW58MHx8fHwxNzYyNTY0MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer support"
     },
     {
-      "id": "process-step",
-      "description": "Image for our process section",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjI1MTEyNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "team collaboration"
+      "id": "patient-story-1",
+      "description": "Portrait of a smiling patient",
+      "imageUrl": "https://images.unsplash.com/photo-1579047917338-a6a69144fe63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjI0ODUxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy person"
+    },
+    {
+      "id": "patient-story-2",
+      "description": "Portrait of a recovered patient",
+      "imageUrl": "https://images.unsplash.com/photo-1624486217002-846e654ac969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8MTc2MjUxNDYwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling person"
+    },
+    {
+      "id": "patient-story-3",
+      "description": "Portrait of a content patient",
+      "imageUrl": "https://images.unsplash.com/photo-1747995371110-7dfa822073a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb250ZW50JTIwcGVyc29ufGVufDB8fHx8MTc2MjU2MjM2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "content person"
     }
   ]
 }

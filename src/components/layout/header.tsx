@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Globe } from "lucide-react";
+import { Menu, HeartPulse } from "lucide-react";
 import Link from 'next/link';
 
 const navLinks = [
-  { href: "#features", label: "Features" },
-  { href: "#process", label: "Process" },
-  { href: "#contact", label: "Contact" },
+  { href: "#services", label: "Services" },
+  { href: "#recommender", label: "Find a Hospital" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#support", label: "Support" },
 ];
 
 export function Header() {
@@ -22,8 +23,8 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Globe className="h-6 w-6 text-primary" />
-            <span className="font-bold">Web Weaver</span>
+            <HeartPulse className="h-6 w-6 text-primary" />
+            <span className="font-bold">MediConnect</span>
           </Link>
           <nav className="hidden gap-6 text-sm md:flex">
             {navLinks.map((link) => (
@@ -40,7 +41,7 @@ export function Header() {
 
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild>
-            <a href="#contact">Get Started</a>
+            <a href="#recommender">Get Started</a>
           </Button>
           <Sheet open={isMenuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
@@ -51,8 +52,8 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="left">
               <Link href="/" className="mb-8 flex items-center" onClick={closeMenu}>
-                <Globe className="mr-2 h-6 w-6 text-primary" />
-                <span className="font-bold">Web Weaver</span>
+                <HeartPulse className="mr-2 h-6 w-6 text-primary" />
+                <span className="font-bold">MediConnect</span>
               </Link>
               <div className="flex flex-col space-y-4">
                 {navLinks.map((link) => (

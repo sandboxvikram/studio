@@ -51,9 +51,3 @@ export function Services() {
     </section>
   );
 }
-
-// Rename the file from features.tsx to services.tsx
-// I will need to handle the rename. Let me find the right tool.
-// For now I will just rename the component.
-// I need to rename the file src/components/sections/features.tsx to src/components/sections/services.tsx
-// I will also update the import in src/app/page.tsx

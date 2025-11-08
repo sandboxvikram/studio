@@ -22,19 +22,19 @@ export function Hero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="container text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-            Weave Your Web Presence
+            Your Health, Your Way
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 md:text-xl">
-            Crafting beautiful, responsive, and engaging web experiences tailored to your needs.
+            Find trusted hospitals, personalized treatment plans, and seamless travel arrangements with MediConnect.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg">
-              <a href="#features">
-                Learn More <MoveRight className="ml-2 h-5 w-5" />
+              <a href="#recommender">
+                Find a Hospital <MoveRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="#contact">Contact Us</a>
+              <a href="#support">Contact Us</a>
             </Button>
           </div>
         </div>

@@ -6,18 +6,10 @@ import type { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
-import { Phone, Mail, MessageSquare } from "lucide-react";
-
-const recommenderSchema = z.object({
-  condition: z.string().min(3, "Please describe your medical condition."),
-  location: z.string().min(2, "Please enter your preferred city."),
-  budget: z.string().min(1, "Please select a budget range."),
-});
+import { recommenderSchema } from "@/lib/types";
 
 type RecommenderFormValues = z.infer<typeof recommenderSchema>;
 

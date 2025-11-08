@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Web Weaver',
-  description: 'Crafting beautiful, responsive, and engaging web experiences tailored to your needs.',
+  title: 'MediConnect',
+  description: 'Your trusted partner for smart hospital recommendations and personalized medical journeys.',
 };
 
 export default function RootLayout({
