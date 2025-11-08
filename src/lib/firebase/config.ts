@@ -8,6 +8,11 @@ import type {FirebaseOptions} from 'firebase/app';
 /**
  * The Firebase configuration object.
  */
-export const firebaseConfig: FirebaseOptions = JSON.parse(
-  process.env.NEXT_PUBLIC_FIREBASE_CONFIG || '{"projectId":"test-project"}'
-);
+export const firebaseConfig: FirebaseOptions = {
+  apiKey: 'API_KEY',
+  authDomain: 'PROJECT_ID.firebaseapp.com',
+  projectId: 'PROJECT_ID',
+  storageBucket: 'PROJECT_ID.appspot.com',
+  messagingSenderId: 'SENDER_ID',
+  appId: 'APP_ID',
+};

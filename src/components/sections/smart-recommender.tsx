@@ -12,50 +12,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { recommenderSchema } from "@/lib/types";
 import { Loader2, Hospital, Stethoscope, Star } from "lucide-react";
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { recommendHospitals } from "@/ai/flows/recommend-hospitals";
 import Image from 'next/image';
 import { useAuth } from "@/hooks/use-auth";
 import { useRouter } from "next/navigation";
 
 
 type RecommenderFormValues = z.infer<typeof recommenderSchema>;
-
-// Mock data for recommendations
-const mockResults = [
-  {
-    name: "Apollo Hospital, Mumbai",
-    specialty: "Cardiology",
-    rating: 4.9,
-    accreditation: "NABH, JCI",
-    image: PlaceHolderImages.find(p => p.id === 'hospital-1') || { imageUrl: "https://picsum.photos/seed/h1/400/250", imageHint: 'hospital exterior', description: 'Apollo Hospital' },
-    doctors: [
-      { name: "Dr. Anjali Verma", specialty: "Interventional Cardiologist" },
-      { name: "Dr. Rahul Desai", specialty: "Cardiac Surgeon" },
-    ]
-  },
-  {
-    name: "Fortis Hospital, Delhi",
-    specialty: "Orthopedics",
-    rating: 4.8,
-    accreditation: "NABH",
-    image: PlaceHolderImages.find(p => p.id === 'hospital-2') || { imageUrl: "https://picsum.photos/seed/h2/400/250", imageHint: 'modern hospital', description: 'Fortis Hospital' },
-    doctors: [
-      { name: "Dr. Sameer Joshi", specialty: "Joint Replacement Surgeon" },
-      { name: "Dr. Meera Kapoor", specialty: "Spine Surgeon" },
-    ]
-  },
-  {
-    name: "Manipal Hospital, Bangalore",
-    specialty: "Oncology",
-    rating: 4.9,
-    accreditation: "NABH, AACI",
-    image: PlaceHolderImages.find(p => p.id === 'hospital-3') || { imageUrl: "https://picsum.photos/seed/h3/400/250", imageHint: 'hospital building', description: 'Manipal Hospital' },
-    doctors: [
-      { name: "Dr. Vikram Rao", specialty: "Medical Oncologist" },
-      { name: "Dr. Sunita Patel", specialty: "Surgical Oncologist" },
-    ]
-  }
-];
 
 export function SmartRecommender() {
   const { toast } = useToast();
@@ -93,11 +56,19 @@ export function SmartRecommender() {
       description: "Our AI is analyzing your needs to find the best hospitals and doctors for you.",
     });
 
-    // Simulate AI processing
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    setResults(mockResults);
-    setIsLoading(false);
+    try {
+      const response = await recommendHospitals(data);
+      setResults(response.hospitals);
+    } catch (error) {
+      console.error(error);
+      toast({
+        variant: "destructive",
+        title: "An Error Occurred",
+        description: "We couldn't fetch recommendations at this time. Please try again.",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -189,15 +160,17 @@ export function SmartRecommender() {
                  <h3 className="text-2xl font-bold font-headline">Your Personalized Recommendations</h3>
                 {results.map((result, index) => (
                   <Card key={index} className="overflow-hidden transform-gpu transition-all duration-300 hover:shadow-xl">
-                    <div className="relative h-52 w-full">
-                      <Image 
-                        src={result.image.imageUrl} 
-                        alt={result.image.description} 
-                        fill 
-                        className="object-cover" 
-                        data-ai-hint={result.image.imageHint}
-                      />
-                    </div>
+                    {result.image && (
+                      <div className="relative h-52 w-full">
+                        <Image 
+                          src={result.image.imageUrl} 
+                          alt={result.image.description} 
+                          fill 
+                          className="object-cover" 
+                          data-ai-hint={result.image.imageHint}
+                        />
+                      </div>
+                    )}
                     <CardHeader>
                       <CardTitle className="flex items-center justify-between">
                         <span className="flex items-center gap-2"><Hospital className="h-6 w-6 text-primary" /> {result.name}</span>
