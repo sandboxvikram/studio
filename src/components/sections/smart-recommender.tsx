@@ -16,6 +16,7 @@ import { recommendHospitals } from "@/ai/flows/recommend-hospitals";
 import Image from 'next/image';
 import { useAuth } from "@/hooks/use-auth";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 
 type RecommenderFormValues = z.infer<typeof recommenderSchema>;
