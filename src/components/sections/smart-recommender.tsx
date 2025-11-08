@@ -14,6 +14,9 @@ import { recommenderSchema } from "@/lib/types";
 import { Loader2, Hospital, Stethoscope, Star } from "lucide-react";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
+import { useAuth } from "@/hooks/use-auth";
+import { useRouter } from "next/navigation";
+
 
 type RecommenderFormValues = z.infer<typeof recommenderSchema>;
 
@@ -58,6 +61,9 @@ export function SmartRecommender() {
   const { toast } = useToast();
   const [results, setResults] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const { user } = useAuth();
+  const router = useRouter();
+
 
   const form = useForm<RecommenderFormValues>({
     resolver: zodResolver(recommenderSchema),
@@ -69,6 +75,16 @@ export function SmartRecommender() {
   });
 
   const onSubmit = async (data: RecommenderFormValues) => {
+    if (!user) {
+      toast({
+        variant: 'destructive',
+        title: "Authentication Required",
+        description: "Please log in to use the recommender.",
+      });
+      router.push('/login');
+      return;
+    }
+    
     setIsLoading(true);
     setResults([]);
     
@@ -209,6 +225,7 @@ export function SmartRecommender() {
               <div className="text-center py-16 px-4 border-2 border-dashed rounded-lg">
                 <Hospital className="mx-auto h-12 w-12 text-muted-foreground" />
                 <h3 className="mt-4 text-lg font-medium text-muted-foreground">Your hospital recommendations will appear here.</h3>
+                 {!user && <p className="text-sm text-muted-foreground mt-2">Please <Link href="/login" className="text-primary underline">log in</Link> to get recommendations.</p>}
               </div>
             )}
           </div>
