@@ -1,0 +1,75 @@
+"use client";
+
+import { useState } from 'react';
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu, Globe } from "lucide-react";
+import Link from 'next/link';
+
+const navLinks = [
+  { href: "#features", label: "Features" },
+  { href: "#process", label: "Process" },
+  { href: "#contact", label: "Contact" },
+];
+
+export function Header() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => setMenuOpen(false);
+
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-14 max-w-screen-2xl items-center">
+        <div className="mr-4 flex items-center">
+          <Link href="/" className="mr-6 flex items-center space-x-2">
+            <Globe className="h-6 w-6 text-primary" />
+            <span className="font-bold">Web Weaver</span>
+          </Link>
+          <nav className="hidden gap-6 text-sm md:flex">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-foreground/60 transition-colors hover:text-foreground/80"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+        </div>
+
+        <div className="flex flex-1 items-center justify-end space-x-2">
+          <Button asChild>
+            <a href="#contact">Get Started</a>
+          </Button>
+          <Sheet open={isMenuOpen} onOpenChange={setMenuOpen}>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon" className="md:hidden">
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">Open menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left">
+              <Link href="/" className="mb-8 flex items-center" onClick={closeMenu}>
+                <Globe className="mr-2 h-6 w-6 text-primary" />
+                <span className="font-bold">Web Weaver</span>
+              </Link>
+              <div className="flex flex-col space-y-4">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="text-lg text-foreground/80 transition-colors hover:text-foreground"
+                    onClick={closeMenu}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
+      </div>
+    </header>
+  );
+}
