@@ -28,6 +28,7 @@ const navLinks = [
   { href: "/blog", label: "Blog" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/support", label: "Support" },
+  { href: "/bot", label: "AI Assistant" },
 ];
 
 export function Header() {
