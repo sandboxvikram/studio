@@ -12,11 +12,11 @@ export function Footer() {
           </Link>
         </div>
         <nav className="flex flex-wrap justify-center gap-x-6 gap-y-4 mb-8 text-muted-foreground">
-          <Link href="/#services" className="hover:text-primary transition-colors">Services</Link>
-          <Link href="/#recommender" className="hover:text-primary transition-colors">Find a Hospital</Link>
+          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
+          <Link href="/recommender" className="hover:text-primary transition-colors">Find a Hospital</Link>
           <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
-          <Link href="/#testimonials" className="hover:text-primary transition-colors">Testimonials</Link>
-          <Link href="/#support" className="hover:text-primary transition-colors">Support</Link>
+          <Link href="/testimonials" className="hover:text-primary transition-colors">Testimonials</Link>
+          <Link href="/support" className="hover:text-primary transition-colors">Support</Link>
         </nav>
         <div className="flex justify-center space-x-6 mb-8">
           <Link href="#" aria-label="Twitter">

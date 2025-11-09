@@ -22,11 +22,12 @@ import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 
 
 const navLinks = [
-  { href: "/#services", label: "Services" },
-  { href: "/#recommender", label: "Find a Hospital" },
+  { href: "/services", label: "Services" },
+  { href: "/recommender", label: "Find a Hospital" },
+  { href: "/how-it-works", label: "How It Works" },
   { href: "/blog", label: "Blog" },
-  { href: "/#testimonials", label: "Testimonials" },
-  { href: "/#support", label: "Support" },
+  { href: "/testimonials", label: "Testimonials" },
+  { href: "/support", label: "Support" },
 ];
 
 export function Header() {
@@ -67,7 +68,7 @@ export function Header() {
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      isScrolled || pathname !== '/' ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
+      isScrolled ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
     )}>
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
@@ -80,7 +81,10 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="font-medium text-foreground/70 transition-colors hover:text-foreground"
+                className={cn(
+                  "font-medium transition-colors hover:text-foreground",
+                  pathname === link.href ? "text-foreground" : "text-foreground/70"
+                )}
               >
                 {link.label}
               </Link>
@@ -149,7 +153,7 @@ export function Header() {
                   </Link>
                 ))}
                  <Button asChild className="mt-4">
-                    <Link href="/#recommender">Get Started</Link>
+                    <Link href="/recommender">Get Started</Link>
                 </Button>
               </div>
             </SheetContent>
