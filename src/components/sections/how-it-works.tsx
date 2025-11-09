@@ -5,22 +5,22 @@ const steps = [
   {
     icon: <Search className="h-10 w-10 text-primary" />,
     title: "1. Tell Us Your Needs",
-    description: "Fill out a simple form with your medical condition, location, and budget preferences.",
+    description: "Use our AI recommender to enter your medical condition, preferred city, and budget. It's simple, secure, and takes just a few minutes.",
   },
   {
     icon: <ListChecks className="h-10 w-10 text-primary" />,
-    title: "2. Get AI Recommendations",
-    description: "Our AI analyzes your request and provides a personalized list of top hospitals and doctors.",
+    title: "2. Receive Personalized Options",
+    description: "Our AI provides a curated list of India's leading hospitals and doctors that match your needs, complete with ratings and accreditations.",
   },
   {
     icon: <Plane className="h-10 w-10 text-primary" />,
-    title: "3. Plan Your Journey",
-    description: "Receive treatment plans, cost estimates, and book your travel and stay seamlessly.",
+    title: "3. Plan Your Medical Travel",
+    description: "We handle the logistics for you, from providing medical visa invitation letters to assisting with flight and accommodation bookings.",
   },
   {
     icon: <HeartHandshake className="h-10 w-10 text-primary" />,
-    title: "4. Receive Care & Support",
-    description: "Get the best medical care with our 24/7 support team assisting you at every step.",
+    title: "4. Receive World-Class Care",
+    description: "Arrive in India with confidence. We provide airport transfers and 24/7 on-ground support to ensure a smooth treatment and recovery experience.",
   },
 ];
 
@@ -29,12 +29,12 @@ export function HowItWorks() {
     <section id="how-it-works" className="py-20 sm:py-32 bg-muted/50">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-primary uppercase">How It Works</h2>
+          <h2 className="text-base font-semibold leading-7 text-primary uppercase">Your Journey to Health</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            Your Medical Journey in 4 Simple Steps
+            Your Medical Travel to India in 4 Simple Steps
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            We've simplified the entire process to ensure you have a stress-free experience from start to finish.
+            We've designed a clear and stress-free process, so you can focus on what truly matters: your health and recovery.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
