@@ -7,12 +7,11 @@ import { HowItWorks } from "@/components/sections/how-it-works";
 import { BlogSection } from "@/components/sections/blog";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight, Search, ListChecks, Plane, HeartHandshake } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight } from "lucide-react";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from "next/image";
 
-const featureImage = PlaceHolderImages.find(p => p.id === 'hospital-1');
+const featureImage = PlaceHolderImages.find(p => p.id === 'recommender-feature');
 
 export default function Home() {
   return (

@@ -7,22 +7,10 @@
       "imageHint": "doctor patient"
     },
     {
-      "id": "treatment-plan",
-      "description": "Image for personalized treatment plans feature",
-      "imageUrl": "https://images.unsplash.com/photo-1758691461990-03b49d969495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWRpY2FsJTIwY2hhcnR8ZW58MHx8fHwxNzYyNDg1OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medical chart"
-    },
-    {
-      "id": "travel-booking",
-      "description": "Image for travel and stay booking feature",
-      "imageUrl": "https://images.unsplash.com/photo-1505164294036-5fad98506d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhaXJwbGFuZSUyMHRyYXZlbHxlbnwwfHx8fDE3NjI1NzE5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "airplane travel"
-    },
-    {
-      "id": "multilingual-support",
-      "description": "Image for 24/7 multilingual support feature",
-      "imageUrl": "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b21lciUyMHN1cHBvcnR8ZW58MHx8fHwxNzYyNTY0MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "customer support"
+      "id": "recommender-feature",
+      "description": "An AI-powered recommender showing hospital options on a screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1746286720921-63cbe964faf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBSSUyMGludGVyZmFjZXxlbnwwfHx8fDE3NjI2MjIwODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI interface"
     },
     {
       "id": "patient-story-1",
@@ -44,20 +32,20 @@
     },
     {
       "id": "hospital-1",
-      "description": "Exterior of Apollo Hospital",
-      "imageUrl": "https://images.unsplash.com/photo-1690983302930-3f587810471c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMGV4dGVyaW9yfGVufDB8fHx8MTc2MjU1NDExNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hospital exterior"
-    },
-    {
-      "id": "hospital-2",
-      "description": "Exterior of Fortis Hospital",
-      "imageUrl": "https://images.unsplash.com/photo-1662414185445-b9a05e26dba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjI1NzIyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Exterior of a modern, clean hospital building.",
+      "imageUrl": "https://images.unsplash.com/photo-1615770891862-cf9c510272c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjI1NzIyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern hospital"
     },
     {
+      "id": "hospital-2",
+      "description": "A different view of a hospital exterior, showing a welcoming entrance.",
+      "imageUrl": "https://images.unsplash.com/photo-1760581253539-95605962474b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3NwaXRhbCUyMGVudHJhbmNlfGVufDB8fHx8MTc2MjY1NjMzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital entrance"
+    },
+    {
       "id": "hospital-3",
-      "description": "Exterior of Manipal Hospital",
-      "imageUrl": "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MjU0NTU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A large hospital complex with surrounding greenery.",
+      "imageUrl": "https://images.unsplash.com/photo-1586773860383-dab5f3bc1bcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MjU0NTU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hospital building"
     },
     {
