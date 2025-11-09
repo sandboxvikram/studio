@@ -23,19 +23,19 @@ export function Hero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="container text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-            World-Class Healthcare in India
+            Access World-Class Healthcare in India, Seamlessly
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 md:text-xl">
-            Experience top-tier medical care at a fraction of the cost. MediConnect is your trusted partner for a seamless and affordable health journey in India.
+            MediConnect is your dedicated partner for navigating India's premier medical services. Get personalized hospital recommendations, transparent cost estimates, and complete end-to-end support for your health journey.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg">
               <Link href="/recommender">
-                Find a Hospital <MoveRight className="ml-2 h-5 w-5" />
+                Find Your Hospital <MoveRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="/support">Contact Us</Link>
+              <Link href="/services">Our Services</Link>
             </Button>
           </div>
         </div>

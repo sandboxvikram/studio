@@ -22,12 +22,12 @@ export default function Home() {
         <section className="py-20 sm:py-32">
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h2 className="text-base font-semibold leading-7 text-primary">A New Approach to Healthcare</h2>
+              <h2 className="text-base font-semibold leading-7 text-primary">Why Choose India for Your Healthcare?</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-                Your Health, Your Journey, Simplified
+                World-Class Medical Care at a Fraction of the Cost
               </p>
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                MediConnect is a comprehensive platform designed to make your medical journey seamless and stress-free. We connect you with world-class hospitals and provide end-to-end support, from travel arrangements to post-treatment care.
+                India is a leading destination for medical tourism, offering a unique combination of cutting-edge technology, highly skilled doctors, and significant cost savings. MediConnect helps you access this world-class ecosystem with confidence and ease.
               </p>
             </div>
           </div>
@@ -45,12 +45,12 @@ export default function Home() {
                   Find the Right Hospital with Our AI-Powered Recommender
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                  Our intelligent recommender analyzes your medical needs, budget, and location preferences to suggest the best hospitals for you. Get personalized results in minutes and take the guesswork out of choosing the right care.
+                  Stop the guesswork. Our intelligent platform analyzes your medical needs, budget, and location preferences to recommend the best JCI-accredited hospitals and specialists for you. Get a personalized, data-driven plan in minutes.
                 </p>
                 <div className="mt-8">
                   <Button asChild size="lg">
                     <Link href="/recommender">
-                      Find a Hospital <ArrowRight className="ml-2 h-5 w-5" />
+                      Get Your Free Recommendations <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
                   </Button>
                 </div>

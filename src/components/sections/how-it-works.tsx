@@ -4,23 +4,23 @@ import { Search, ListChecks, Plane, HeartHandshake } from 'lucide-react';
 const steps = [
   {
     icon: <Search className="h-10 w-10 text-primary" />,
-    title: "1. Share Your Medical Needs",
-    description: "Tell us about your condition and treatment needs. Our AI platform finds top Indian hospitals specializing in your required care.",
+    title: "1. Tell Us Your Needs",
+    description: "Use our AI recommender to enter your medical condition, preferred city, and budget. It's simple, secure, and takes just a few minutes.",
   },
   {
     icon: <ListChecks className="h-10 w-10 text-primary" />,
-    title: "2. Receive Curated Plans",
-    description: "Get personalized treatment plans, transparent cost estimates, and profiles of leading doctors and accredited hospitals.",
+    title: "2. Receive Personalized Options",
+    description: "Our AI provides a curated list of India's leading hospitals and doctors that match your needs, complete with ratings and accreditations.",
   },
   {
     icon: <Plane className="h-10 w-10 text-primary" />,
-    title: "3. Plan Your Trip to India",
-    description: "We assist with visa paperwork, book your flights, and arrange comfortable accommodation near your chosen hospital.",
+    title: "3. Plan Your Medical Travel",
+    description: "We handle the logistics for you, from providing medical visa invitation letters to assisting with flight and accommodation bookings.",
   },
   {
     icon: <HeartHandshake className="h-10 w-10 text-primary" />,
-    title: "4. Arrive and Receive Care",
-    description: "You'll be greeted at the airport. We provide 24/7 multilingual support throughout your treatment and recovery in India.",
+    title: "4. Receive World-Class Care",
+    description: "Arrive in India with confidence. We provide airport transfers and 24/7 on-ground support to ensure a smooth treatment and recovery experience.",
   },
 ];
 
@@ -31,10 +31,10 @@ export function HowItWorks() {
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-primary uppercase">Your Journey to Health</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            A Seamless Medical Travel Experience in 4 Steps
+            Your Medical Travel to India in 4 Simple Steps
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            From your home to your recovery in India, we've designed a stress-free process so you can focus on what matters most: your health.
+            We've designed a clear and stress-free process, so you can focus on what truly matters: your health and recovery.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
