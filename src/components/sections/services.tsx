@@ -1,21 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Plane, Stethoscope, BriefcaseMedical } from 'lucide-react';
+import { Plane, Stethoscope, BriefcaseMedical, MessageCircleQuestion } from 'lucide-react';
 
 const services = [
   {
     icon: <BriefcaseMedical className="h-8 w-8 text-primary" />,
     title: "Personalized Treatment Plans",
-    description: "Receive tailored treatment plans including cost estimates, recovery timelines, and recommended partner hospitals.",
+    description: "Receive comprehensive, transparent treatment plans from JCI and NABH-accredited hospitals, including detailed cost breakdowns.",
   },
   {
     icon: <Plane className="h-8 w-8 text-primary" />,
-    title: "Integrated Travel & Stay",
-    description: "Book flights, trains, and accommodations near your chosen hospital directly through our platform.",
+    title: "End-to-End Travel Logistics",
+    description: "We handle your medical visa invitation, flight bookings, and airport transfers for a seamless journey to India.",
   },
   {
-    icon: <Stethoscope className="h-8 w-8 text-primary" />,
-    title: "Smart Hospital Recommender",
-    description: "Our AI-powered tool suggests the best hospitals and doctors based on your unique medical needs and preferences.",
+    icon: <MessageCircleQuestion className="h-8 w-8 text-primary" />,
+    title: "24/7 On-the-Ground Support",
+    description: "Our multilingual team is available around the clock to assist with your needs, from local transport to dietary requirements.",
   },
 ];
 
@@ -26,10 +26,10 @@ export function Services() {
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-primary">Our Services</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            A Complete Platform for Your Medical Journey
+            Complete Care for Your Medical Journey to India
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            From finding the right doctor to booking your travel, MediConnect simplifies every step of your medical travel experience.
+            We provide a comprehensive suite of services to ensure your medical travel is safe, comfortable, and hassle-free.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

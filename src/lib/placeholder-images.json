@@ -2,69 +2,69 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A compassionate doctor listening to a patient in a bright, modern hospital setting.",
-      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MjYwNjgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "doctor patient"
+      "description": "A diverse team of smiling doctors in a modern Indian hospital, conveying expertise and warmth.",
+      "imageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBkb2N0b3JzfGVufDB8fHx8MTc2MzQwODU4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian doctors"
     },
     {
       "id": "recommender-feature",
-      "description": "An AI-powered recommender showing hospital options on a screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1746286720921-63cbe964faf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBSSUyMGludGVyZmFjZXxlbnwwfHx8fDE3NjI2MjIwODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "AI interface"
+      "description": "A welcoming view of the Taj Mahal at sunrise, symbolizing the journey to India.",
+      "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YWolMjBtYWhhbHxlbnwwfHx8fDE3NjM0MDg2NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "taj mahal"
     },
     {
       "id": "patient-story-1",
-      "description": "Portrait of a smiling patient",
-      "imageUrl": "https://images.unsplash.com/photo-1554774853-719586f82d77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzYyODU0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian man"
+      "description": "Portrait of a smiling, middle-aged Caucasian man.",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWRkbGUlMjBhZ2VkJTIwbWFufGVufDB8fHx8MTc2MzQwODcxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caucasian man"
     },
     {
       "id": "patient-story-2",
-      "description": "Portrait of a recovered patient",
-      "imageUrl": "https://images.unsplash.com/photo-1610216705422-caa3fc2bab34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3b21hbnxlbnwwfHx8fDE3NjI4NTQ3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian woman"
+      "description": "Portrait of a smiling woman of African descent with her elderly mother.",
+      "imageUrl": "https://images.unsplash.com/photo-1604177093952-b7b35198a237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwbW90aGVyJTIwZGF1Z2h0ZXJ8ZW58MHx8fHwxNzYzNDA4NzQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "african family"
     },
     {
       "id": "patient-story-3",
-      "description": "Portrait of a content patient",
-      "imageUrl": "https://images.unsplash.com/photo-1520409364224-63400afe26e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBtYW58ZW58MHx8fHwxNzYyODU0NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian man"
+      "description": "Portrait of a smiling British man in his late 50s.",
+      "imageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvbGRlciUyMGV1cm9wZWFuJTIwbWFufGVufDB8fHx8MTc2MzQwODc3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "european man"
     },
     {
       "id": "hospital-1",
-      "description": "Exterior of a modern, clean hospital building.",
-      "imageUrl": "https://images.unsplash.com/photo-1615770891862-cf9c510272c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjI1NzIyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern hospital"
+      "description": "Exterior of a modern, clean hospital building in India.",
+      "imageUrl": "https://images.unsplash.com/photo-1580694269877-162a231d5a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjM0MDg4MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian hospital"
     },
     {
       "id": "hospital-2",
-      "description": "A different view of a hospital exterior, showing a welcoming entrance.",
-      "imageUrl": "https://images.unsplash.com/photo-1760581253539-95605962474b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3NwaXRhbCUyMGVudHJhbmNlfGVufDB8fHx8MTc2MjY1NjMzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A welcoming entrance of a state-of-the-art hospital in a major Indian city.",
+      "imageUrl": "https://images.unsplash.com/photo-1586773860383-dab5f3bc1bcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMGVudHJhbmNlfGVufDB8fHx8MTc2MzQwODg0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hospital entrance"
     },
     {
       "id": "hospital-3",
-      "description": "A large hospital complex with surrounding greenery.",
-      "imageUrl": "https://images.unsplash.com/photo-1586773860383-dab5f3bc1bcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MjU0NTU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hospital building"
+      "description": "A large, impressive hospital campus in India with green surroundings.",
+      "imageUrl": "https://images.unsplash.com/photo-1615777457494-084353634c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NjM0MDg4MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital campus"
     },
     {
       "id": "blog-post-1",
-      "description": "A person looking at a flight information board at an airport.",
-      "imageUrl": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXJwb3J0JTIwdHJhdmVsfGVufDB8fHx8MTc2MzEzMTc0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "airport travel"
+      "description": "A colorful, vibrant street market in India, representing the cultural experience.",
+      "imageUrl": "https://images.unsplash.com/photo-1598428994323-9c759452f5d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYXJrZXR8ZW58MHx8fHwxNzYzNDA4OTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian market"
     },
     {
       "id": "blog-post-2",
-      "description": "A futuristic image of AI and technology in a medical context.",
-      "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMGhlYWx0aGNhcmV8ZW58MHx8fHwxNzYzMTMxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ai healthcare"
+      "description": "A person packing a suitcase with travel documents and a passport visible.",
+      "imageUrl": "https://images.unsplash.com/photo-1562547104-634331093131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBwcmVwYXJhdGlvbnxlbnwwfHx8fDE3NjM0MDg5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel preparation"
     },
     {
       "id": "blog-post-3",
-      "description": "An image of a healthy heart or someone engaging in heart-healthy activities.",
-      "imageUrl": "https://images.unsplash.com/photo-1528699633785-3b9e48b81393?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFydCUyMGhlYWx0aHxlbnwwfHx8fDE3NjMxMzE4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "heart health"
+      "description": "A person practicing yoga peacefully with a serene backdrop of Kerala's backwaters.",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjB5b2dhfGVufDB8fHx8MTc2MzQwODk2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yoga kerala"
     }
   ]
 }
